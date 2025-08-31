@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Milciades Boitel - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 18pt;
+      background: #0f0f0f;
+      color: white;
+      animation: fadeIn .8s ease-in;
+    }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+    h1 {
+      font-family: 'Inter', sans-serif;
+      font-weight: bolder;
+      font-size: 64pt;
+    }
+
+    h2{
+     font-family: 'Inter', sans-serif; 
+     font-weight: bolder;
+    }
+
+    nav {
+      text-align: center;
+      padding: 20px 0;
+    }
+    nav a {
+      color: white;
+      margin: 0 20px;
+      text-decoration: none;
+      font-size: 14pt;
+      padding: 15px;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+    nav a:hover{
+      transition-property: all;
+      transition-duration: .5s;
+      color: #b3d8f3;
+      background-color: rgb(30, 32, 37);
+    }
+
+    header {
+      background: url(images/banner1.jpg) no-repeat center center/cover;
+      text-align: center;
+      padding: 80px 10px;
+    }
+    header span {
+      display: block;
+      font-size: 24pt;
+      padding-top: 50px;
+    }
+   
+    div {
+      max-width: 400px;
+      margin: 20px auto;
+      font-size: 14px;
+      line-height: 22px;
+      text-align: left;
+    }
+
+    a {
+      color: #8cc8f8;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    footer {
+      display: flex;
+      justify-content: space-between;
+      padding: 40px 20px;
+      font-size: 14pt;
+      background: #0a0a0a;
+    }
+    footer div {
+      text-align: left;
+    }
+    footer h3 {
+      margin-bottom: 10px;
+    }
+    footer a {
+      display: block;
+      margin-bottom: 5px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-right: 5px;
+    }
+
+    div a {
+  font-size: 14pt;
+  color: #8cc8f8;
+  text-decoration: none;
+  padding: 15px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+    .intro-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.intro-section img {
+  width: 500px;
+  height: auto;
+  padding-left: 25%;
+}
+
+.intro-text {
+  max-width: 500px;
+  font-size: 20pt;
+  line-height: 1.7;
+  padding-right: 25%;
+}
+
+main img:hover{
+  transition-property: all;
+  transition-duration: .5s;
+  transform: scale(1.05);
+}
+
+.tools-section {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.work_with {
+  font-size: 24pt;
+  margin-bottom: 40px;
+  padding-top: 150px;
+  padding-bottom: 200px;
+}
+
+.tools-logos {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin-bottom: 60px;
+}
+
+.tools-logos img {
+  width: 150px;
+  height: auto;
+}
+
+.portfolio-link {
+  text-align: center;
+  align-content: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+section p {
+  font-size: 24pt;
+}
+
+.portfolio-link:hover {
+  transition-property: all;
+  transition-duration: .5s;
+  transform: scale(1.5);
+  letter-spacing: 2px;
+  font-size: 24pt;
+}
+
+section img:hover{
+  transition-property: all;
+  transition-duration: .5s;
+  transform: scale(1.3);
+}
+
+  </style>
+
+
+
+</head>
+<body>
+
+  <nav>
+    <a href="page1.html">About</a>
+    <a href="page2.html">Portfolio</a>
+    <a href="page3.html">Contact</a>
+  </nav>
+
+  <header>
+    <span>Meet the artist</span>
+    <h1>Milciades Boitel</h1>
+  </header>
+
+
+
+  <main class="intro-section">
+      <img src="images/portrait.jpg" alt="Milciades Boitel">
+    <div class="intro-text">
+      <p>
+        I’m a creative illustrator with a passion for design and visual storytelling.
+        I approach each project with curiosity, precision, and a love for aesthetics and character design.
+        This portfolio showcases a range of projects that reflect my skills and versatility in illustrative work.
+      </p>
+    </div>
+  </main>
+
+<section class="tools-section">
+  <p class="work_with">I work with</p>
+  <div class="tools-logos">
+    <img src="images/ps.png" alt="Photoshop logo">
+    <img src="images/procreate.png" alt="Procreate logo">
+  </div>
+  <div class="portfolio-link">
+    <a href="page2.html">Check my Portfolio</a>
+  </div>
+</section>
+
+
+
+  <footer>
+    <div>
+      <h2>Milciades Boitel</h2>
+      <a href="page1.html">About</a>
+      <a href="page2.html">Portfolio</a>
+      <a href="page3.html">Contact</a>
+    </div>
+    <div>
+      <h2>Links</h2>
+      <a href="https://www.linkedin.com/in/milciades-boitel-2a3008351?trk=people-guest_people_search-card">Linkedin</a>
+    </div>
+  </footer>
+
+</body>
+</html>
